@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agenda de Tareas Minimalista</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Banners simulados -->
+  <div class="ad-left">Anuncio Lateral</div>
+  <div class="ad-right">Anuncio Lateral</div>
+
+  <div class="container">
+    <button class="dark-mode-btn" onclick="toggleDarkMode()">🌙</button>
+    <h2>📋 Agenda de Tareas</h2>
+
+    <div class="top-bar">
+      <input type="text" id="taskInput" placeholder="Nueva tarea...">
+      <button class="add-btn" onclick="addTask()">➕</button>
+      <input type="text" id="searchInput" placeholder="Buscar...">
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
